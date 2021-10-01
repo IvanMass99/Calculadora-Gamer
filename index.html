@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>¿Cuánto ez?</title>
+
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style_basic.css">
+    <link rel="stylesheet" href="style_class.css">
+
+</head>
+
+
+<!------------------------------------------------------------------------------ HEADER -------------->
+
+<header>
+
+    <div class="Menu">
+
+        <a href="#Menu">Inicio</a>
+        <a href="#Calculadora">Calculadora</a>
+        <a href="#Preguntas">Preguntas</a>
+        <a href="https://cafecito.app/ivanmass"> Donar🧡 </a>
+
+        <!----- <a href="#Contacto">Contacto</a> --->
+
+
+    </div>
+
+
+
+</header>
+
+<!------------------------------------------ BODY -------------->
+
+<body>
+
+
+
+    <!---------------------------------------RESPONSIVE MENU -------------
+
+
+
+    <div class="responsive_menu">
+
+
+        <input id="rmenu" type="checkbox">
+        <label for="rmenu"><img src="imagenes/menu.png" style="width: 60px;" alt="Menu" class="r_menu"></label>
+
+        <div class="responsive_enlace" id="rmenu_a">
+
+            <a href="#Menu" onclick="ocultar_menu()">Inicio</a>
+            <a href="#Calculadora">Calculadora</a>
+            <a href="#Preguntas">Preguntas</a>
+            <a href="https://cafecito.app/ivanmass">Donar </a>
+
+
+        </div>
+
+
+
+    </div>
+
+------>
+
+
+    <!----------------------------------- INICIO ------------------->
+
+
+    <div class="Inicio" id="Menu">
+
+
+
+        <h1>CALCULADORA GAMER</h1>
+
+        <h2>
+
+            El sitio web que te permite calcular
+            <br>
+
+            el precio final de muchas
+            tiendas de videojuegos.
+
+        </h2>
+
+        <a href="#Calculadora"> <button>Comenzar</button></a>
+
+
+    </div>
+
+
+    <!------------------------------------------------------------------------------ ROW - CALCULADORAS --------->
+
+    <br>
+
+    <div class="row" id="Calculadora">
+
+        <div></div>
+
+
+        <!------------------------------------------ PLAY STATION STORE-------------->
+
+        <div class="PS_store" id="PS_store">
+
+
+
+            <br>
+
+            <img src="Imagenes/ps.png" alt="Play Station" style="width:100px;height:100px;">
+
+
+            <br> <br>
+
+            <section class="ps_input_button">
+
+                <input type="number" placeholder="Dolar / USD" id="PS_precio">
+
+                <button type="submit" onclick="PS_store()" ;> CALCULAR </button>
+
+            </section>
+
+            <br>
+
+
+
+            <p id="PS_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+
+        <!------------------------------------------ NINTENDO -------------->
+
+
+
+        <div class="Nintendo" id="Nintendo">
+
+
+            <br>
+            <br>
+
+            <img src="Imagenes/nintendo.png" alt="Nintendo" style="width:160px;height:50px;">
+
+            <br>
+            <br>
+
+            <br>
+
+            <section class="nintendo_input_button">
+
+                <input id="Nintendo_precio" type="number" placeholder="Dolar / USD">
+
+                <button onclick="Nintendo_store()" ;> CALCULAR </button>
+
+            </section>
+
+
+            <br>
+
+
+
+            <p id="Nintendo_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+        <!------------------------------------------ EPIC STORE -------------->
+
+
+
+        <div class="Epic_store" id="Epic_store">
+
+            <br>
+
+            <img src="Imagenes/epic.png" alt="Epic Store" style="width:100px;height:105px;">
+
+            <br>
+
+            <br>
+
+            <section class="epic_input_button">
+
+                <input type="number" placeholder="Dolar / USD" id="Epic_store_precio">
+
+                <button type="submit" onclick="tienda_epic_store()" ;> CALCULAR </button>
+
+            </section>
+
+            <br>
+
+            <p id="Epic_store_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+        <!------------------------------------------ STEAM -------------->
+
+
+
+        <div class="Steam" id="Steam">
+
+
+            <br>
+
+            <img src="Imagenes/steam.png" alt="Steam" style="width:80px;height:80px;">
+
+            <br>
+            <br>
+
+            <br>
+
+            <section class="steam_input_button">
+
+
+                <input id="Steam_precio" type="number" placeholder="Pesos / ARS">
+
+                <button onclick="tienda_steam()" ;> CALCULAR </button>
+
+
+            </section>
+
+            <br>
+
+
+
+            <p id="Steam_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+
+        <!------------------------------------------  XBOX -------------->
+
+
+        <div class="Xbox" id="Xbox">
+
+
+            <br>
+            <br>
+
+            <img src="Imagenes/xbox.png" alt="Xbox" style="width:200px;height:50px;">
+            <br>
+
+            <br>
+
+            <br>
+
+            <section class="xbox_input_button">
+
+                <input id="Xbox_precio" type="number" placeholder="Pesos / ARS">
+
+                <button onclick="Xbox_store()" ;> CALCULAR </button>
+
+            </section>
+
+
+
+            <br>
+
+
+
+            <p id="Xbox_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+        <!------------------------------------------  UBISOFT -------------->
+
+
+
+        <div class="Ubisoft" id="Ubisoft">
+
+
+            <br> <br>
+
+            <img src="Imagenes/ubisoft.png" alt="Ubisoft" style="width:80px;height:80px;">
+
+
+            <br>
+
+            <br>
+
+            <section class="xbox_input_button">
+
+                <input id="Ubisoft_precio" type="number" placeholder="Pesos / ARS">
+
+                <button onclick="Ubisoft_store()" ;> CALCULAR </button>
+
+            </section>
+
+
+
+            <br>
+
+
+
+            <p id="Ubisoft_final" class="c_final">PRECIO FINAL </p>
+
+        </div>
+
+
+
+    </div>
+
+    <!------------------------------------------------------------------ PREGUNTAS ------------------->
+
+    <div id="Preguntas" class="preguntas">
+
+        <h1>¿La calculadora es exacta?</h1>
+
+        <p>El precio del juego puede variar
+            dependiendo de lo provincia donde vivas.
+            <br>
+            En ese caso, los impuestos aplicables pueden variar del 1% al 3% del precio final.
+        </p>
+
+        <br>
+        <h1>¿Como se calculan las tiendas en dolares?</h1>
+
+        <p>En las tiendas de videojuegos donde el precio
+            del producto figura en dolares (USD)
+            <br>
+            la calculadora se encarga de tomar el valor del dolar
+            actual para convertirlo en pesos argentinos (ARS)
+            <br>
+            luego aplica los impuestos y consigue
+            el precio final del juego.
+        </p>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!------------------------------------------------------------------------------ FORMULARIO DE CONTACTO --------->
+
+    <!---
+
+    <div class="Contacto" id="Contacto">
+
+        <h1>Contacto</h1>
+        <p>Sugerencias, dudas y mensajes
+            para el desarrollador del sitio web mediante este formulario</p>
+
+        <br>
+        <input type="email" class="input_contacto" placeholder="Mail">
+        <br><br>
+        <input type="text" class="input_contacto" placeholder="Asunto">
+        <br><br>
+        <textarea name="text" id="" cols="30" rows="10">Mensaje</textarea>
+        <br><br>
+
+        <button>Enviar</button>
+
+    </div>
+
+--->
+
+
+</body>
+
+<!------------------------------------------------------------------------------ FOOTER --------->
+
+<footer>
+
+    <h1>Calculadora Gamer</h1>
+    <p>Creado por Ivan Massimino</p>
+    <p>Contacto: ivaanmass@gmail.com</p>
+
+
+</footer>
+
+
+</html>

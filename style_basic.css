@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root
+
+{
+
+--BackgroundSize: 800px;
+
+}
+
+html
+
+{
+  
+
+
+font-family: 'Poppins', sans-serif ;
+scroll-behavior: smooth;
+background: linear-gradient(50deg, rgb(27, 29, 48) 50%, rgb(36, 31, 48) 100%);
+
+
+}
+
+button
+
+{
+
+    cursor: pointer
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+
+
+{
+
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+input::placeholder
+
+{
+
+color:silver;
+font-family: 'Poppins', sans-serif ;
+font-size: 14px;
+
+
+}
+
+
+
+
+header
+
+{
+
+
+
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+padding-top: 15px;
+
+
+}
+
+
+body
+
+{
+
+margin: 0;
+padding: 0%;
+
+}
+
+
+
+.row
+
+{
+
+ 
+padding-top: 100px;   
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
+.row input
+
+{
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    width: 90px;
+  
+    size: 3;
+    padding: 7px;
+
+    background-color: rgb(10,10,20,0);
+
+  
+
+    border-style:solid;    
+    border-radius: 0px;  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color:coral;
+
+
+
+}
+
+
+.row button
+
+{
+
+text-align: center;
+font-size: 14px;   
+font-family: 'Poppins', sans-serif ;
+color: coral;
+
+
+width: 112px;
+height: 40px;
+
+
+border-style:solid;
+border-width: 2px;
+
+border-top: none;
+
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+border-bottom: none;
+border-color: coral;
+
+
+
+
+transition: ease-out 0.4s;
+background-color: rgb(10,10,20,0);
+
+}
+
+button:hover
+
+{
+
+color: white;
+background-color: coral;
+
+
+}
+
+
+/* -------------------------------------- RESPONSIVE MENU ----------------------------- */
+
+
+@media screen and (max-width: 700px)
+
+{
+
+
+    
+ header 
+{
+
+font-size: 24px;
+display:contents;
+
+    
+    }
+
+}
+
+
+@media screen and (min-width: 900px){.responsive_menu{visibility: hidden;}}
+@media screen and (max-width: 700px){.Inicio, footer{text-align: center;justify-content: center;}}    
+
+
+/* ----------------------FONDO----------------- */
+
+body
+
+{
+
+    background-image: url(Imagenes/background2.png);
+    background-size: var(--BackgroundSize);
+    background-repeat:repeat;
+
+
+    animation: movingBackground 30s linear infinite;
+
+}
+
+@keyframes movingBackground
+
+{
+
+from {background-position: 0 0;}
+
+to {background-position: var(--BackgroundSize) var(--BackgroundSize);}
+
+}
+
+/* ----------------------FOOTER----------------- */
+
+
+
+footer
+
+{
+
+padding-bottom: 50px;
+margin-top: 10%;
+
+display: table;
+width: 100%;
+
+border-top: 3px solid coral;
+
+background-color: rgb(10,10,20,0.6);
+
+}
+
+footer h1
+
+{
+
+margin-left: 3%;
+margin-bottom: -1%;
+
+color: coral;
+
+}
+
+footer p
+
+{
+
+margin-left: 3%;
+
+
+color: white;
+
+}
+

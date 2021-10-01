@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+:root
+
+{
+
+--store_size: 370px;
+
+}
+
+
+
+.Menu
+
+{
+
+
+
+padding: 15px;
+
+}
+
+
+.Menu a
+
+{
+
+text-align: center;
+font-size: 18px;
+color: whitesmoke;
+text-decoration: none;
+
+margin-left: 25px;
+padding: 10px;
+
+}
+
+.Menu a:hover
+
+{
+
+
+color: coral;
+text-decoration: none;
+
+border-style:solid;    
+border-radius: 0px;  
+border-top: none;
+border-left: none;
+border-right: none;
+border-color:coral;
+
+
+}
+
+
+
+.Inicio
+
+{
+    
+    padding: 18%;
+
+    
+
+
+}
+ 
+
+.Inicio h1
+
+{
+color: coral;
+
+}
+
+.Inicio h2
+
+{color: white;}
+
+.Inicio button
+
+{
+
+
+    font-size: 14px;   
+    font-family: 'Poppins', sans-serif ;
+    color: coral;
+
+           
+    width: 112px;
+    height: 40px;
+    
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: coral;
+   
+    background-color: rgb(10,10,20,0);
+
+    transition: ease-out 0.4s;
+
+background-color: rgb(10,10,20,0);
+
+}
+
+.Inicio button:hover
+
+{
+
+    color: white;
+    background-color: coral;
+
+
+}
+
+
+.row_h1
+
+{
+
+
+text-align: center;
+color: white;
+
+}
+ 
+.row p
+
+{
+
+    font-size: 18px;
+    color: coral;
+
+}
+
+.PS_store
+
+{   
+    
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+
+    margin: 3%;
+
+    
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.ps_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+.Nintendo
+
+{   
+   
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+
+    margin: 3%;
+
+    
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.nintendo_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+.Epic_store
+
+{   
+
+    
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+
+    margin: 3%;
+      
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.epic_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+
+.Steam
+
+{   
+    
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+
+    margin: 3%;
+    
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.steam_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+.Xbox
+
+{   
+   
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+   
+    margin: 3%;
+    
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.xbox_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+.Ubisoft
+
+{   
+   
+    text-align: center;
+    color: whitesmoke;  
+
+    width: var(--store_size);
+    height: 350px;
+
+    margin: 3%;
+      
+    border-radius: 15px;
+    box-shadow:  0 2px 10px #000;
+    background-color: rgb(10,10,20,0.5);
+
+    
+
+}
+
+.ubisoft_input_button
+
+{
+
+
+margin-left: auto;
+margin-right: auto;
+
+width: 220px;
+
+border: 2px solid coral;
+border-radius: 15px;
+
+
+}
+
+.row h2
+
+{
+
+font-size: 18px;
+color: white;
+
+}
+
+
+
+.Contacto
+
+{
+
+
+text-align: center;
+justify-content: center;
+
+padding: 12%;
+
+
+}
+
+.Contacto h1
+
+{
+
+color: white;
+
+
+
+}
+
+
+.Contacto p
+
+{
+
+
+
+color: coral;
+
+
+}
+
+
+.Contacto input
+
+{
+
+    font-family: 'Poppins', sans-serif ;
+    font-size: 18px;
+
+}
+
+.input_contacto
+
+{
+
+
+
+color: white;
+
+
+width: 50%;
+height: auto;
+
+padding: 15px;
+
+border-radius: 15px;
+border: 2px solid coral;
+background-color: rgb(10,10,20,0);
+
+
+    
+
+}
+
+.input_mensaje
+
+{
+
+    color: aliceblue;    
+
+    width: 50%;
+    height: 150px;
+
+
+    padding: 15px;
+    
+    border-radius: 15px;
+    border: 2px solid coral;
+    background-color: rgb(10,10,20,0);
+
+    
+}
+
+.Contacto textarea
+
+{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 16px;
+    color: coral;
+
+    width: 50%;
+    height: 150px;
+
+
+    padding: 15px;
+    
+    border-radius: 15px;
+    border: 2px solid coral;
+    background-color: rgb(10,10,20,0);
+
+}
+
+
+
+
+.Contacto button
+
+{
+
+
+
+font-size: 14px;   
+font-family: 'Poppins', sans-serif ;
+color: coral;
+
+
+
+width: 112px;
+height: 40px;
+
+border-style:solid;
+border-width: 2px;
+border-radius: 15px;
+border-color: coral;
+
+
+
+
+transition: ease-out 0.4s;
+
+background-color: rgb(10,10,20,0);
+
+}
+
+.Contacto button:hover
+
+{
+
+color: white;
+background-color: coral;
+
+
+}
+
+.Contacto input::placeholder
+
+{
+
+
+font-family: 'Poppins', sans-serif ;
+color: coral;
+font-size: 18px;
+
+text-align: left;
+
+
+}
+
+/* -------------------------- MENU RESPONSIVE ------------------------------ */
+
+
+
+/* -------------- MENU --------------------- */
+
+.responsive_menu
+
+{
+
+top: 2%;
+
+text-align: center;
+width: 100%;
+position: fixed;
+
+transition: ease-in 0.3s;
+
+
+
+}
+
+.responsive_menu input {visibility: hidden;}
+.responsive_menu label {float: left; margin-left: 5%;}
+
+
+/* -------------- ENLACES --------------------- */
+
+.responsive_enlace 
+
+{
+
+transform: translateX(-800px);
+transition:  ease-out 0.5s;
+
+}
+
+
+#rmenu:checked ~ .responsive_enlace {transform: translateX(0px);}
+
+
+.responsive_enlace a
+
+{
+
+
+
+color: coral;
+font-size: 16px;
+text-decoration: none;
+
+padding: 20px;
+
+}
+
+
+
+
+/*/ HOVER STORES 
+
+.Epic_store:hover
+
+{box-shadow:  0 1px 10px whitesmoke;}
+
+
+.PS_store:hover
+
+{box-shadow:  0 1px 10px whitesmoke;}
+
+.Steam:hover
+
+{box-shadow:  0 1px 10px whitesmoke;}
+
+/*/
+
+.preguntas
+
+{
+
+margin-top: 25%;
+
+text-align: center;
+justify-content: center;
+
+
+}
+
+.preguntas h1
+
+{
+
+color: coral;
+
+}
+
+.preguntas p 
+
+{
+    font-size: 18px;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+
+}
+
+
+@media screen and (max-width: 900px)
+
+{ .PS_store , .Nintendo, .Epic_store , .Steam , .Xbox , .Ubisoft
+    
+    {
+        
+        width: 300px;
+    
+    }
+
+}
+
