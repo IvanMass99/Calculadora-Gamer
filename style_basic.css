@@ -230,8 +230,8 @@ to {background-position: var(--BackgroundSize) var(--BackgroundSize);}
 footer
 
 {
-
-padding-bottom: 50px;
+    
+    padding-bottom: 50px;
 margin-top: 10%;
 
 display: table;
@@ -247,6 +247,8 @@ footer h1
 
 {
 
+font-size: 18px;
+
 margin-left: 3%;
 margin-bottom: -1%;
 
@@ -257,7 +259,8 @@ color: coral;
 footer p
 
 {
-
+   
+font-size: 16px;
 margin-left: 3%;
 
 
