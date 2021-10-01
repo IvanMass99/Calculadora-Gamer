@@ -1,5 +1,7 @@
 ## La calculadora online que nos muestra el precio final (con impuestos incluidos) de las principales tiendas de videjuegos.
 
+### ![](https://raw.githubusercontent.com/IvanMass99/Calculadora-Gamer/main/Imagenes/Banner%20github.png)
+
 ## **🔹 Estado del proyecto: Beta**
 
 Aun el proyecto no esta en su etapa final. Por lo cual, surgiran cambios a lo largo de los proximos meses.
