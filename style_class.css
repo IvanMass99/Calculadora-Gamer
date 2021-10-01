@@ -60,6 +60,10 @@ border-color:coral;
 
 {
     
+    text-align: center;
+    justify-content: center;
+
+
     padding: 18%;
 
     
@@ -607,7 +611,7 @@ padding: 20px;
 
 {
 
-margin-top: 25%;
+padding: 120px;
 
 text-align: center;
 justify-content: center;
