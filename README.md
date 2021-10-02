@@ -1,35 +1,36 @@
-## La calculadora online que nos muestra el precio final (con impuestos incluidos) de las principales tiendas de videjuegos.
+![](https://github.com/IvanMass99/Calculadora-Gamer/blob/a925fa6075e195bf6900dfd25477c5dbc5571739/Imagenes/banner%20vhs.png)
 
-### ![](https://raw.githubusercontent.com/IvanMass99/Calculadora-Gamer/main/Imagenes/Banner%20github.png)
+# **🔸 Probar [Calculadora Gamer](https://ivanmass99.github.io/Calculadora-Gamer/)**
 
-## **🔹 Estado del proyecto: Beta**
+## **👾 Estado del proyecto: _Beta_**
 
-Aun el proyecto no esta en su etapa final. Por lo cual, surgiran cambios a lo largo de los proximos meses.
+El proyecto aun no está en su etapa final. Por lo cual, surgirán cambios a lo largo de los próximos meses.
 
-## **🛒 Tiendas disponibles:**
-- Play Station Store 
-- Nintendo Shop 
-- Epic Store 
-- Steam
-- Xbox / Microsoft Store
-- Ubisoft
-- Otros (proximamente)
+## **🛒Tiendas disponibles:**
+
+* Play Station Store
+* Nintendo Shop
+* Epic Store
+* Steam
+* Xbox / Microsoft Store
+* Ubisoft
+* Otros (próximamente)
+
 
 ## **❓ Preguntas:**
 
-### **¿La calculadora es exacta?**
+**¿Como calcula las tiendas en dólares?**
 
-El precio del juego puede variar dependiendo de lo provincia donde vivas.
-En ese caso, los impuestos aplicables pueden variar del 1% al 3% del precio final.
+En las tiendas de videojuegos donde el precio figura en dólares (USD) la calculadora se encarga de tomar el valor del dólar actual para convertirlo en pesos argentinos (ARS). Luego aplica los impuestos y consigue el precio final del producto.
 
-### **¿Como se calculan las tiendas en dolares?**
+**¿El sitio se actualizará mediante nuevos impuestos?**
 
-En las tiendas de videojuegos donde el precio del producto figura en dolares (USD)
-la calculadora se encarga de tomar el valor del dolar actual para convertirlo en pesos argentinos (ARS).
-Luego aplica los impuestos y consigue el precio final del juego.
+Habrá actualizaciones en los impuestos.
+Además, se implementarán nuevas tiendas y funciones en el futuro
 
-### **¿El sitio se actualizara mediante nuevos impuestos?**
+## **⭐️ Donaciones**
 
-Habra actualizaciones en los impuestos.
+Cualquier donación para incentivar el desarrollo final del proyecto será bienvenida mediante mi perfil de [cafecito](https://cafecito.app/ivanmass)
 
-Ademas se implementaran nuevas tiendas y funciones en el futuro
+<a href='https://cafecito.app/ivanmass' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x, https://cdn.cafecito.app/imgs/buttons/button_5_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' /></a>
+ 
