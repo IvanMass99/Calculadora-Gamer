@@ -64,7 +64,8 @@ border-color:coral;
     justify-content: center;
 
 
-    padding: 18%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 
     
 
@@ -611,7 +612,7 @@ padding: 20px;
 
 {
 
-padding: 120px;
+padding-top: 120px;
 
 text-align: center;
 justify-content: center;
