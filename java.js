@@ -82,7 +82,7 @@ function Ubisoft_store()
 
     Ubisoft_precio = parseFloat(document.getElementById('Ubisoft_precio').value)
     let element = document.getElementById('Ubisoft_final')
-    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(Ubisoft_precio * 1.30).toFixed(2)} ARS </h2></p>`
+    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(Ubisoft_precio * 1.65).toFixed(2)} ARS </h2></p>`
 
 }
 
