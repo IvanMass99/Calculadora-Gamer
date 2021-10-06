@@ -26,7 +26,7 @@ En las tiendas de videojuegos donde el precio figura en dólares (USD) la calcul
 **¿El sitio se actualizará mediante nuevos impuestos?**
 
 Habrá actualizaciones en los impuestos.
-Además, se implementarán nuevas tiendas y funciones en el futuro
+Además se implementarán nuevas tiendas y funciones en el futuro
 
 ## **⭐️ Donaciones**
 
