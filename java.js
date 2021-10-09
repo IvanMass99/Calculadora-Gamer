@@ -101,8 +101,8 @@ fetch(url)
     .then(response => response.json())
     .then(casa => {
 
-        final = parseFloat([casa[0].casa.compra])
-                console.log(casa[0].casa.compra)
+        final = parseFloat([casa[0].casa.venta])
+                console.log(casa[0].casa.venta)
        // console.log([casa[0].casa.compra])
 
     })
