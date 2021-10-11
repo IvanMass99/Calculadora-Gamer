@@ -59,7 +59,7 @@ border-color:coral;
 .Inicio
 
 {
-    
+    margin: 5%;
     text-align: center;
     justify-content: center;
 
@@ -67,7 +67,7 @@ border-color:coral;
     padding-top: 15%;
     padding-bottom: 15%;
 
-    
+
 
 
 }
@@ -611,7 +611,8 @@ padding: 20px;
 .preguntas
 
 {
-
+   
+    margin: 5%;
 padding-top: 120px;
 
 text-align: center;
