@@ -14,7 +14,7 @@ function PS_store()
 
     PS_precio = parseFloat(document.getElementById('PS_precio').value)
     let element = document.getElementById('PS_final')
-    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${((PS_precio * final)*1.65).toFixed(2)} ARS </h2></p>`
+    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${((PS_precio * final)*1.75).toFixed(2)} ARS </h2></p>`
 
 
 }
@@ -28,7 +28,7 @@ function Nintendo_store()
 
     Nintendo_precio = parseFloat(document.getElementById('Nintendo_precio').value)
     let element = document.getElementById('Nintendo_final')
-    element.innerHTML = `<p> PRECIO FINAL<h2> $ ${((Nintendo_precio * final)*1.65).toFixed(2)} ARS </h2></p>`
+    element.innerHTML = `<p> PRECIO FINAL<h2> $ ${((Nintendo_precio * final)*1.75).toFixed(2)} ARS </h2></p>`
 
 
 }
@@ -42,7 +42,7 @@ function tienda_epic_store()
 
     epic_store_precio = parseFloat(document.getElementById('Epic_store_precio').value)
     let element = document.getElementById('Epic_store_final')
-    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${((epic_store_precio * final)*1.65).toFixed(2)} ARS </h2></p>`
+    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${((epic_store_precio * final)*1.75).toFixed(2)} ARS </h2></p>`
 
 
 }
@@ -56,7 +56,7 @@ function tienda_steam() {
 
     steam_precio = parseFloat(document.getElementById('Steam_precio').value)
     let element = document.getElementById('Steam_final')
-    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(steam_precio * 1.65).toFixed(2)} ARS 🧉  </h2></p>`
+    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(steam_precio * 1.75).toFixed(2)} ARS 🧉  </h2></p>`
 
 }
 
@@ -69,7 +69,7 @@ function Xbox_store()
 
     Xbox_precio = parseFloat(document.getElementById('Xbox_precio').value)
     let element = document.getElementById('Xbox_final')
-    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(Xbox_precio * 1.65).toFixed(2)} ARS </h2></p>`
+    element.innerHTML = `<p>PRECIO FINAL<h2> $ ${(Xbox_precio * 1.75).toFixed(2)} ARS </h2></p>`
 
 }
 
