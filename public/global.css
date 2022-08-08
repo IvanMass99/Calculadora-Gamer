@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+
+    --BackgroundSize: 800px;
+    --color-main1: salmon;
+   
+
+}
+
+/* ----------------------GENERAL----------------- */
+
+*
+
+{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+
+body
+
+{
+
+
+    background-image: url(background2.png);
+    background-size: var(--BackgroundSize);
+    background-repeat:repeat;    
+    animation: movingBackground 30s linear infinite;
+
+
+}
+
+
+@keyframes movingBackground {
+
+    from {
+
+        background-color: rgb(27, 29, 48);  
+        background-position: 0 0;
+    
+    }
+
+    to {
+      
+        background-position: var(--BackgroundSize) var(--BackgroundSize);
+        background-color: rgb(27, 29, 48);  
+
+    }
+
+}
