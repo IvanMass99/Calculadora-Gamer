@@ -28,7 +28,7 @@
         {#each stores as store (store.id) }
             <div class="">
                 <div class="">
-                    <div class="card m-5 rounded" style="width: 350px;">
+                    <div class="card m-5 rounded w-90">
                         
                         <i style="font-size:65px;" class="{store.icono} text-light text-center m-3"></i>
                         <h2 class="text-center mb-4"> {store.name}</h2>	
