@@ -7,7 +7,9 @@
     "icono":"bi bi-steam",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 0
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
 
 },
 
@@ -18,8 +20,24 @@
     "icono":"bi bi-xbox",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 0
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
 },
+
+{
+
+    "id": 7,
+    "name": "Microsoft store",
+    "icono":"bi bi-windows",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
+},
+
+
     
 {
 
@@ -28,7 +46,9 @@
      "icono":"bi bi-controller",
      "precio":"",
      "impuesto":1.27,
-     "moneda": 0
+     "moneda": 0,
+     "tienda": "videojuegos"
+     
      
 },
 
@@ -39,7 +59,8 @@
     "icono":"bi bi-nintendo-switch",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 1
+    "moneda": 1,
+    "tienda": "videojuegos"
 },     
 
 
@@ -50,7 +71,8 @@
     "icono":"bi bi-playstation",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 1
+    "moneda": 1,
+    "tienda": "videojuegos"
     
     
 },
@@ -62,7 +84,8 @@
     "icono":"bi bi-controller",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 1
+    "moneda": 1,
+    "tienda": "videojuegos"
     
 },
 
@@ -73,7 +96,8 @@
     "icono":"bi bi-google-play",
     "precio":"",
     "impuesto":1.75,
-    "moneda": 1
+    "moneda": 1,
+    "tienda": "videojuegos"
     
 } 
 

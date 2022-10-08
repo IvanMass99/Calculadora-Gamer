@@ -6,11 +6,11 @@
     
         <div class="container-fluid">
          
-          <button style="background-color: salmon; border-radius:10%;" class="navbar-toggler text-center m-auto mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button style="background-color: salmon; border-radius:10%;" class="navbar-toggler text-center m-auto mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
     
-          <div class="collapse navbar-collapse justify-content-center  mt-5 " id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-center  mt-3 " id="navbarNav">
             <ul class="navbar-nav text-center">
     
               <li class="nav-item hvr-float">

@@ -5,7 +5,7 @@ import Navbar from "./navbar.svelte";
 import Bienvenida from "./bienvenida.svelte";
 import Preguntas from "./preguntas.svelte";
 import Footer from "./footer.svelte";
-
+import Comentarios from "./comentarios.svelte";
 
 </script>
 
@@ -13,6 +13,7 @@ import Footer from "./footer.svelte";
         <Navbar />	
         <Bienvenida />
         <Calculadora />
+        <Comentarios />
         <Preguntas />
         <Footer />
 </main>

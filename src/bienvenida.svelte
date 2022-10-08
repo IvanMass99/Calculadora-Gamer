@@ -5,11 +5,11 @@
 
     <div class="bienvenida text-center">
 
-        <h1 class="" style="color:salmon;"> CALCULADORA GAMER</h1>
+        <h1 class="" style="color:salmon;"> CALCULADORA GAMER </h1>
     
-        <h4 class="mt-5 mb-3 text-light"> Calcula el precio final con impuestos incluidos de diversas tiendas de videojuegos.</h4>
+        <h4 class="mt-5 mb-3 text-light"> Calcula el precio final con impuestos incluidos en diversas tiendas de videojuegos.</h4>
 
-        <p class="text-secondary">¡Actualizada a los ultimos impuestos agregados!</p>
+        <h5 class="text-secondary">¡Actualizada a los últimos impuestos agregados!</h5>
     
         <h5 class="text-secondary"></h5>
     
