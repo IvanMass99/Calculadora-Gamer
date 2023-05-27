@@ -1,6 +1,6 @@
 ![](https://github.com/IvanMass99/Calculadora-Gamer/blob/a925fa6075e195bf6900dfd25477c5dbc5571739/Imagenes/banner%20vhs.png)
 
-# **🔸 Probar [Calculadora Gamer](https://calculadora-gamer-svelte.firebaseapp.com/)**
+# **🔸 Probar [Calculadora Gamer](https://calculadora-gamer-2.vercel.app/)**
 
 ## **👾 Estado del proyecto: _Beta_**
 
