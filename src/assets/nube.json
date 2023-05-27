@@ -1,0 +1,38 @@
+[
+
+    {
+      "id": 0,
+      "name": "Xbox cloud",
+      "icono": "bi bi-xbox",
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 0,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    },
+
+    {
+      "id": 1,
+      "name": "Nvidia gforce",
+      "icono": "bi bi-nvidia",
+      "precio": "",
+      "impuesto": 1.27,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": true
+    },
+    
+
+    {
+      "id": 2,
+      "name": "Amazon Luna",
+      "icono": "bi bi-moon-fill",
+
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    }
+  ]
+  

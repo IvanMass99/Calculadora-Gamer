@@ -1,27 +1,24 @@
-![](https://github.com/IvanMass99/Calculadora-Gamer/blob/a925fa6075e195bf6900dfd25477c5dbc5571739/Imagenes/banner%20vhs.png)
+# calculadora-gamer
 
-# **🔸 Probar [Calculadora Gamer](https://calculadora-gamer-svelte.firebaseapp.com/)**
+## Project setup
+```
+npm install
+```
 
-## **👾 Estado del proyecto: _Beta_**
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-El proyecto aun no está en su etapa final. Por lo cual, surgirán cambios a lo largo de los próximos meses.
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## **🛒Tiendas disponibles:**
+### Lints and fixes files
+```
+npm run lint
+```
 
-* Play Station Store
-* Nintendo Shop
-* Epic Store
-* Steam
-* Xbox / Microsoft Store
-* Ubisoft
-* Otros (próximamente)
-## **❓ Preguntas:**
-
-**¿Como calcula las tiendas en dólares?**
-
-En las tiendas de videojuegos donde el precio figura en dólares (USD) la calculadora se encarga de tomar el valor del dólar actual para convertirlo en pesos argentinos (ARS). Luego aplica los impuestos y consigue el precio final del producto.
-
-**¿El sitio se actualizará mediante nuevos impuestos?**
-
-Habrá actualizaciones en los impuestos.
-Además se implementarán nuevas tiendas y funciones en el futuro
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

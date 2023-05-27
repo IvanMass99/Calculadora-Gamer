@@ -1,0 +1,63 @@
+[
+
+    {
+      "id": 0,
+      "name": "Battle.net",
+      "icono": "",
+      "imagen": "https://play-lh.googleusercontent.com/PuPFgmLam2WNyul3lUQywQT5Y5sPgL6VzWSUAdXOS1oIQwHYnrB_MyfXCOrR4LzZcjeP",
+      "precio": "",
+      "impuesto": 1.27,
+      "moneda": 0,
+      "tienda": "videojuegos",
+      "tieneImagen": true
+    },
+    {
+      "id": 1,
+      "name": "Fornite",
+      "icono": "bi bi-nintendo-switch",
+      "imagen": "https://assets.stickpng.com/images/62951b6a1ea803a6d2c3fbf8.png",
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    },
+
+    {
+      "id": 2,
+      "name": "Rocket league",
+      "icono": "bi bi-nintendo-switch",
+      "imagen": "https://i.postimg.cc/vHSRc7bm/rocket-leage-removebg-preview.png",
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    },
+
+    {
+      "id": 3,
+      "name": "GTA V online",
+      "icono": "bi bi-nintendo-switch",
+      "imagen": "https://www.pngmart.com/files/13/GTA-V-Online-PNG-Image.png",
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    },
+
+    {
+      "id": 4,
+      "name": "Roblox",
+      "icono": "bi bi-nintendo-switch",
+      "imagen": "https://store-images.s-microsoft.com/image/apps.45829.13510798883386282.b040a068-2b54-4c72-b757-b84e0c483607.b913ec30-21e8-4877-b64b-1c54f585ab1d",
+      "precio": "",
+      "impuesto": 1.75,
+      "moneda": 1,
+      "tienda": "videojuegos",
+      "tieneImagen": false
+    }
+  
+  ]
+  

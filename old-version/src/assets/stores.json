@@ -1,0 +1,105 @@
+[
+
+{
+
+    "id": 0,
+    "name": "Steam",
+    "icono":"bi bi-steam",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
+
+},
+
+{
+
+    "id": 1,
+    "name": "Xbox",
+    "icono":"bi bi-xbox",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
+},
+
+{
+
+    "id": 7,
+    "name": "Microsoft store",
+    "icono":"bi bi-windows",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 0,
+    "tienda": "videojuegos"
+    
+},
+
+
+    
+{
+
+     "id": 2,
+     "name": "Ubisoft",
+     "icono":"bi bi-controller",
+     "precio":"",
+     "impuesto":1.27,
+     "moneda": 0,
+     "tienda": "videojuegos"
+     
+     
+},
+
+{
+
+    "id": 3,
+    "name": "Nintendo",
+    "icono":"bi bi-nintendo-switch",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 1,
+    "tienda": "videojuegos"
+},     
+
+
+{
+
+    "id": 4,
+    "name": "Play Station",
+    "icono":"bi bi-playstation",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 1,
+    "tienda": "videojuegos"
+    
+    
+},
+
+{
+
+    "id": 5,
+    "name": "Epic store",
+    "icono":"bi bi-controller",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 1,
+    "tienda": "videojuegos"
+    
+},
+
+{
+
+    "id": 6,
+    "name": "Google Play",
+    "icono":"bi bi-google-play",
+    "precio":"",
+    "impuesto":1.75,
+    "moneda": 1,
+    "tienda": "videojuegos"
+    
+} 
+
+
+]

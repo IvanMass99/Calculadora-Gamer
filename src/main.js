@@ -1,10 +1,5 @@
-import App from './App.svelte';
+import { createApp } from 'vue'
+import App from './HomeApp.vue'
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
+createApp(App).mount('#app')
 
-export default app;
