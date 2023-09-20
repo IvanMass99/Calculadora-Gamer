@@ -98,7 +98,7 @@
       };
     },
     mounted() {
-      const url = "https://www.dolarsi.com/api/api.php?type=valoresprincipales";
+      const url = "https://dolarapi.com/v1/dolares/oficial";
       fetch(url)
         .then(response => response.json())
         .then(casa => {
