@@ -133,5 +133,11 @@ h4 {color: salmon; font-size: 16px;}
 #icon-footer {font-size: 28px; color: whitesmoke;}
 #iconoExchange{color:whitesmoke; font-size: 18px;}
 #title-div {margin-top: 80px;padding: 15px; color: slategrey;}
-#new-button {position:absolute; margin-right: 385px; margin-bottom: -65px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;}
+#new-button {position:absolute; margin-right: 385px; margin-bottom: -68px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;}
+
+
+#tutorial-button {position:absolute; margin-right: px; margin-top: -65px; color: white;background-color: #FFAE42; border: none; border-radius: 8px; padding: 5px; color: black; font-size: 12px;}
+
+
+#tutorial-button2 {position:absolute; margin-left: 330px; margin-top: -65px; color: white;background-color: #FFAE42; border: none; border-radius: 8px; padding: 5px; color: black; font-size: 12px;}
 
