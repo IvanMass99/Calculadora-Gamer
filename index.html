@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="textAnimation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Calculadora gamer</title>
+</head>
+
+<body>
+    <h1 class="animate-charcter" style="color: salmon;">Calculadora gamer</h1>
+    <h3 style="color: slategray;">Obten el precio final con impuestos incluidos de las principales tiendas de videojuegos del mundo.</h3>
+    <br>
+    <div class="navbar">
+        <a href="#footer">Contacto</a>
+        <a href="https://forms.office.com/r/US3q9FTj9k">Boletín</a>
+        <a href="https://link.mercadopago.com.ar/ivanmass">Donar</a>
+    </div>
+
+    <h3>¡Actualizada a los últimos impuestos agregados! </h3>
+    <h4 id="fecha" style="color: slategrey;"></h4>
+
+    <!--==============================================================================================-->
+
+      <h2 id="title-div">Tiendas destacadas</h2>
+
+    <!--==============================================================================================-->
+    
+    <!-- Steam --->
+
+    <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-steam"></i>
+        <br>
+        <h3>Steam</h3>
+        <input id="cantidadSteam" type="number" placeholder="$0.00 ARS" data-api="false">
+        <i id="iconoExchange" class="bi bi-arrow-left-right"
+        data-input="cantidadSteam" data-resultado="resultadoSteam"></i>
+        <br>
+        <h4 id="resultadoSteam">$0.00 ARS</h4>
+        <br>
+    </div>
+
+    <!-- Play Station --->
+
+    <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-playstation"></i>
+        <br>
+        <h3>Play Station</h3>
+        <input id="cantidadPlayStation" type="number" placeholder="$0.00 USD" data-api="true">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadPlayStation" data-resultado="resultadoPlayStation"></i>
+        <br>
+        <h4 id="resultadoPlayStation">$0.00 ARS</h4>
+        <br>
+    </div>
+
+     <!-- Xbox --->
+
+     <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-xbox"></i>
+        <br>
+        <h3>Xbox</h3>
+        <input id="cantidadXbox" type="number" placeholder="$0.00 ARS" data-api="true">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadXbox" data-resultado="resultadoXbox"></i>
+        <br>
+        <h4 id="resultadoXbox">$0.00 ARS</h4>
+        <br>
+    </div>
+    
+    <!-- Epic Store --->
+
+    <div class="card">
+        <img style="width: 36px; margin-left: 10px;" src="icon-epic.png" alt="">
+        <br>
+        <h3>Epic Store</h3>
+        <input id="cantidadEpic" type="number" placeholder="$0.00 USD" data-api="false">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadEpic" data-resultado="resultadoEpic"></i>
+        <br>
+        <h4 id="resultadoEpic">$0.00 ARS</h4>
+        <br>
+    </div>
+
+     <!-- Nintendo --->
+    
+     <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-nintendo-switch"></i>
+        <br>
+        <h3>Nintendo</h3>
+        <input id="cantidadNintendo" type="number" placeholder="$0.00 USD" data-api="false">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadNintendo" data-resultado="resultadoNintendo"></i>
+        <br>
+        <h4 id="resultadoNintendo">$0.00 ARS</h4>
+        <br>
+    </div>
+
+    <!-- Ubisoft --->
+    
+        <div class="card">
+            <img style="width: 36px; margin-left: 10px;" src="ico-ubisoft.png" alt="">
+            <br>
+            <h3>Ubisoft</h3>
+            <input id="cantidadUbisoft" type="number" placeholder="$0.00 ARS" data-api="false">
+            <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadUbisoft" data-resultado="resultadoUbisoft"></i>
+            <br>
+            <h4 id="resultadoUbisoft">$0.00 ARS</h4>
+            <br>
+        </div>
+
+    
+    <!-- Google store --->
+    
+    <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-google-play"></i>
+        <br>
+        <h3>Google play</h3>
+        <input id="cantidadGoogle" type="number" placeholder="$0.00 USD" data-api="false">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadGoogle" data-resultado="resultadoGoogle"></i>
+        <br>
+        <h4 id="resultadoGoogle">$0.00 ARS</h4>
+        <br>
+    </div>
+
+     <!-- Apple store --->
+    
+     <div class="card">
+        <i style="margin-left: 12px; font-size: 30px;" class="bi bi-apple"></i>
+        <br>
+        <h3>Apple store</h3>
+        <input id="cantidadApple" type="number" placeholder="$0.00 USD" data-api="false">
+        <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadApple" data-resultado="resultadoApple"></i>
+        <br>
+        <h4 id="resultadoApple">$0.00 ARS</h4>
+        <br>
+        <button style="position:absolute; margin-right: 390px; margin-bottom: -70px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;">¡Nuevo!</button>
+    </div>
+
+
+    
+
+    <!--==============================================================================================-->
+
+    <h2 id="title-div">Suscripciones</h2>
+
+    <!--==============================================================================================-->
+
+         <!-- Xbox pass --->
+    
+         <div class="card">
+            <i style="margin-left: 12px; font-size: 30px;" class="bi bi-xbox"></i>
+            <br>
+            <h3>Xbox pass</h3>
+            <input id="cantidadXboxPass" type="number" placeholder="$0.00 USD" data-api="false">
+            <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadXboxPass" data-resultado="resultadoXboxPass"></i>
+            <br>
+            <h4 id="resultadoXboxPass">$0.00 ARS</h4>
+            <br>
+            <button style="position:absolute; margin-right: 390px; margin-bottom: -70px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;">¡Nuevo!</button>
+        </div>
+
+         <!-- Nvidia Geforce --->
+    
+         <div class="card">
+            <i style="margin-left: 12px; font-size: 30px;" class="bi bi-nvidia"></i>
+            <br>
+            <h4 style="color: whitesmoke;">Nvidia Geforce</h4>
+            <input id="cantidadNvidia" type="number" placeholder="$0.00 USD" data-api="false">
+            <i id="iconoExchange" class="bi bi-arrow-left-right" data-input="cantidadNvidia" data-resultado="resultadoNvidia"></i>
+            <br>
+            <h4 id="resultadoNvidia">$0.00 USD</h4>
+            <br>
+            <button style="position:absolute; margin-right: 390px; margin-bottom: -70px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;">¡Nuevo!</button>
+        </div>
+
+      <!--==============================================================================================-->
+
+
+
+    <script src="main.js"></script>
+    <script src="date.js"></script>
+
+
+
+
+    <div id="footer" class="footer" style="margin-top:50px; margin-bottom: 80px;">
+        <h2 id="title-div">Datos de contacto</h2>
+        <div style="display: flex; justify-content: space-evenly; width: 350px; margin: auto;">
+            <a id="icon-footer" href="https://www.linkedin.com/in/ivan-massimino/"><i class="bi bi-linkedin"></i></a>
+            <a id="icon-footer" href="https://github.com/IvanMass99/Calculadora-Gamer"><i class="bi bi-github"></i></a>
+            <a id="icon-footer" href="https://forms.office.com/r/US3q9FTj9k"><i class="bi bi-envelope-at-fill"></i></a>
+            <a id="icon-footer" href="https://link.mercadopago.com.ar/ivanmass"><i class="bi bi-person-heart"></i></a>
+        </div>
+        
+         
+    </div>
+</body>
+
+</html>
