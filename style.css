@@ -22,7 +22,7 @@
     margin-top: 100px;
     text-align: center;
     color: aliceblue;
-    width: 420px;
+    width: 460px;
     background-image: url(background.png);
     background-size: var(--BackgroundSize);
     background-repeat:repeat;    
@@ -133,5 +133,5 @@ h4 {color: salmon; font-size: 16px;}
 #icon-footer {font-size: 28px; color: whitesmoke;}
 #iconoExchange{color:whitesmoke; font-size: 18px;}
 #title-div {margin-top: 80px;padding: 15px; color: slategrey;}
-#new-button {position:absolute; margin-right: 350px; margin-bottom: -65px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;}
+#new-button {position:absolute; margin-right: 385px; margin-bottom: -65px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;}
 
