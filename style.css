@@ -22,7 +22,7 @@
     margin-top: 100px;
     text-align: center;
     color: aliceblue;
-    width: 460px;
+    width: 420px;
     background-image: url(background.png);
     background-size: var(--BackgroundSize);
     background-repeat:repeat;    
@@ -124,15 +124,14 @@ input
 
 input::placeholder {
     color: slategrey; /* Cambia el color del texto del placeholder */
-    font-size: 18px; /* Cambia el tamaño de fuente del placeholder */
+    font-size: 16px; /* Cambia el tamaño de fuente del placeholder */
 }
 
 
-h4 {color: salmon;}
+h4 {color: salmon; font-size: 16px;}
 
-#resultado { font-size: 14px; text-align: center;}
 #icon-footer {font-size: 28px; color: whitesmoke;}
 #iconoExchange{color:whitesmoke; font-size: 18px;}
 #title-div {margin-top: 80px;padding: 15px; color: slategrey;}
+#new-button {position:absolute; margin-right: 350px; margin-bottom: -65px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px;}
 
-/* Titulo animación */
