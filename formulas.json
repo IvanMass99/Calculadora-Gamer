@@ -33,7 +33,7 @@
     }
     ,
     "XboxPass": {
-      "formula": "cantidad * 2
+      "formula": "cantidad * 2"
     }
   }
   
