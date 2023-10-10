@@ -1,39 +1,39 @@
 {
     "Steam": {
-      "formula": "cantidad * 1.75"
+      "formula": "cantidad * 2"
     },
     "Epic": {
-      "formula":  "(cantidad * valorDolar) * 1.75"
+      "formula":  "(cantidad * valorDolar) * 2"
     },
     "PlayStation": {
-      "formula": "(cantidad * valorDolar) * 1.75"
+      "formula": "(cantidad * valorDolar) * 2"
     },
       "Xbox": {
-        "formula": "cantidad * 1.75"  
+        "formula": "cantidad * 2"  
     },
     "Nintendo": {
-      "formula": "(cantidad * valorDolar) * 1.75"
+      "formula": "(cantidad * valorDolar) * 2"
     }
     ,
     "Ubisoft": {
-      "formula": "cantidad * 1.64"
+      "formula": "cantidad * 1.75"
     }
     ,
     "Google": {
-      "formula": "(cantidad * valorDolar) * 1.75"
+      "formula": "(cantidad * valorDolar) * 2"
     }
     ,
     "Apple": {
-      "formula": "(cantidad * valorDolar) * 1.75"
+      "formula": "(cantidad * valorDolar) * 2"
     }
 
     ,
     "Nvidia GeForce": {
-      "formula": "(cantidad * valorDolar) * 1.75"
+      "formula": "(cantidad * valorDolar) * 2"
     }
     ,
     "XboxPass": {
-      "formula": "cantidad * 1.75"
+      "formula": "cantidad * 2
     }
   }
   
