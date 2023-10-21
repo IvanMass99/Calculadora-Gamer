@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             calcularResultado("cantidadXbox", "resultadoXbox", formulas);
             calcularResultado("cantidadNvidia", "resultadoNvidia", formulas);
             calcularResultado("cantidadXboxPass", "resultadoXboxPass", formulas);
+            calcularResultado("cantidadEAplay", "resultadoEAplay", formulas);
         })
         .catch(error => {
             console.error("Error al cargar el archivo de fórmulas:", error);
