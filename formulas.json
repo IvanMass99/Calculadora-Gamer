@@ -1,6 +1,6 @@
 {
     "Steam": {
-      "formula": "cantidad * 2"
+      "formula":  "(cantidad * valorDolar) * 2"
     },
     "Epic": {
       "formula":  "(cantidad * valorDolar) * 2"
