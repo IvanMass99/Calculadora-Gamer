@@ -137,7 +137,37 @@ h4 {color: salmon; font-size: 16px;}
 
 
 #tutorial-button {position:absolute; margin-right: px; margin-top: -65px; color: white;background-color: #FFAE42; border: none; border-radius: 8px; padding: 5px; color: black; font-size: 12px;}
-
-
 #tutorial-button2 {position:absolute; margin-left: 330px; margin-top: -65px; color: white;background-color: #FFAE42; border: none; border-radius: 8px; padding: 5px; color: black; font-size: 12px;}
+
+
+
+/* #steam-button {position:absolute; margin-right: 235px; margin-top: -65px; color: white;background-color: slateblue; border: none; border-radius: 8px; padding: 5px; color: white; font-size: 12px;}
+*/
+
+/* styles.css */
+
+@keyframes alerta {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+  
+  #steam-button {
+    position: absolute;
+    margin-right: 235px;
+    margin-top: -65px;
+    color: white;
+    background-color: slateblue;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    animation: alerta 3s infinite;
+  }
+  
+
 
