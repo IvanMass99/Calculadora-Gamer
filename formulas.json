@@ -9,14 +9,14 @@
       "formula": "(cantidad * valorDolar) * 2"
     },
       "Xbox": {
-        "formula": "cantidad * 2"  
+        "formula": "cantidad * 1.60"  
     },
     "Nintendo": {
       "formula": "(cantidad * valorDolar) * 2"
     }
     ,
     "Ubisoft": {
-      "formula": "cantidad * 1.75"
+      "formula": "cantidad * 1.60"
     }
     ,
     "Google": {
@@ -33,7 +33,7 @@
     }
     ,
     "XboxPass": {
-      "formula": "cantidad * 2"
+        "formula": "cantidad * 1.60"  
     }
   }
   
