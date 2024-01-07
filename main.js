@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (formulaPersonalizada) {
                         resultado = eval(formulaPersonalizada.formula);
                     } else {
-                        resultado = cantidad * valorDolar * 1.75; // Fórmula predeterminada
+                        resultado = cantidad * valorDolar * 1.60; // Fórmula predeterminada
                     }
 
                     resultadoSpan.textContent = resultado.toFixed(0) + " ARS";
